@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+
+button {
+    background: black;
+    color: red;
+    border: 2px solid red;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background: red;
+    color: black;
+    box-shadow: 0 0 20px red;
+}
+
+
+#gameMessage {
+    color: red;
+    margin-top: 20px;
+    font-size: 18px;
+    animation: blink 1s infinite;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
